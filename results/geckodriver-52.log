@@ -1,0 +1,21 @@
+1770624557657	geckodriver	INFO	Listening on 127.0.0.1:58573
+1770624560734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HORVAT~1\\AppData\\Local\\Temp\\rust_mozprofilebURLpn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1770624561044	Marionette	INFO	Marionette enabled
+1770624561156	Marionette	INFO	Listening on port 57993
+WebDriver BiDi listening on ws://127.0.0.1:58574
+Read port: 57993
+1770624561340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1770624569117	Marionette	INFO	Stopped listening on port 57993
+Dynamically enable window occlusion 1
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.watcher2.process7//customhighlighter40, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:320:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:57:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:62:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:634:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:62:25\nscheduleAutoHideHighlighterType/timer<@resource://devtools/client/inspector/shared/highlighters-overlay.js:603:18\nnotify@resource://gre/modules/Timer.sys.mjs:66:16\nssi_onQuitApplicationGranted@resource:///modules/sessionstore/SessionStore.sys.mjs:2866:19\nssi_observe@resource:///modules/sessionstore/SessionStore.sys.mjs:1579:14\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3414:42\ndispatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "

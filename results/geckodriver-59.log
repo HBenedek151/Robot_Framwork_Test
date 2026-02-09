@@ -1,0 +1,24 @@
+1770624906030	geckodriver	INFO	Listening on 127.0.0.1:58271
+1770624909149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HORVAT~1\\AppData\\Local\\Temp\\rust_mozprofileob8yG7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1770624909451	Marionette	INFO	Marionette enabled
+1770624909552	Marionette	INFO	Listening on port 53898
+WebDriver BiDi listening on ws://127.0.0.1:58272
+Read port: 53898
+1770624909737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1770624911367	Marionette	INFO	Stopped listening on port 53898
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: uncaught exception: undefined
+JavaScript error: resource://gre/modules/workers/require.js, line 140: Error: : 
+console.error: services.settings: 
+  main/tracking-protection-lists: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/nimbus-desktop-experiments: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/url-classifier-exceptions: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1710: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].

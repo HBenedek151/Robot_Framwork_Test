@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-09T09:29:17.666321" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framwork Test" source="C:\Users\horvathbenedek\Documents\GitHub\Robot_Framwork_Test">
+<suite id="s1-s1" name="SauceDemo" source="C:\Users\horvathbenedek\Documents\GitHub\Robot_Framwork_Test\SauceDemo.robot">
+<test id="s1-s1-t1" name="Open saucedemo webpage" line="5">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:17.945946" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-09T09:29:17.945570" elapsed="1.237809"/>
+</kw>
+<kw name="Close Browser" owner="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-09T09:29:19.184211" elapsed="2.166521"/>
+</kw>
+<status status="PASS" start="2026-02-09T09:29:17.941982" elapsed="3.410117"/>
+</test>
+<test id="s1-s1-t2" name="Login with valid credentials" line="9">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:21.387295" level="INFO">Opening browser 'Firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>browser=Firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-09T09:29:21.386625" elapsed="6.380151"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:27.767649" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:27.767145" elapsed="0.081697"/>
+</kw>
+<kw name="Input Password" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:27.849533" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-02-09T09:29:27.855229" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:27.849189" elapsed="0.036323"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:27.886600" level="INFO">Clicking button 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:27.886179" elapsed="0.122342"/>
+</kw>
+<kw name="Page Should Contain Element" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.013649" level="INFO">Current page contains element 'id=add-to-cart-sauce-labs-bike-light'.</msg>
+<arg>id=add-to-cart-sauce-labs-bike-light</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.009626" elapsed="0.004291"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.014852" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-bike-light'.</msg>
+<arg>id=add-to-cart-sauce-labs-bike-light</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.014382" elapsed="0.083921"/>
+</kw>
+<kw name="Click Link" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.099046" level="INFO">Clicking link 'class=shopping_cart_link'.</msg>
+<arg>class=shopping_cart_link</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.098689" elapsed="0.082193"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.181520" level="INFO">Clicking button 'id=checkout'.</msg>
+<arg>id=checkout</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.181197" elapsed="0.080209"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.264373" level="INFO">Typing text 'John' into text field 'id=first-name'.</msg>
+<arg>id=first-name</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.262942" elapsed="0.069407"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.333640" level="INFO">Typing text 'Doe' into text field 'id=last-name'.</msg>
+<arg>id=last-name</arg>
+<arg>Doe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.333157" elapsed="0.025834"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.360347" level="INFO">Typing text '12345' into text field 'id=postal-code'.</msg>
+<arg>id=postal-code</arg>
+<arg>12345</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.359875" elapsed="0.025545"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.386046" level="INFO">Clicking button 'id=continue'.</msg>
+<arg>id=continue</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.385742" elapsed="0.074805"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.461353" level="INFO">Clicking button 'id=finish'.</msg>
+<arg>id=finish</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.460938" elapsed="0.085613"/>
+</kw>
+<kw name="Page Should Contain Element" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.557263" level="INFO">Current page contains element 'id=checkout_complete_container'.</msg>
+<arg>id=checkout_complete_container</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.548026" elapsed="0.012304"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-02-09T09:29:28.563059" level="INFO">Clicking button 'id=back-to-products'.</msg>
+<arg>id=back-to-products</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.561742" elapsed="0.148970"/>
+</kw>
+<kw name="Close Browser" owner="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-09T09:29:28.711253" elapsed="3.031286"/>
+</kw>
+<status status="PASS" start="2026-02-09T09:29:21.367330" elapsed="10.375683"/>
+</test>
+<status status="PASS" start="2026-02-09T09:29:17.716444" elapsed="14.033123"/>
+</suite>
+<status status="PASS" start="2026-02-09T09:29:17.672199" elapsed="14.081365"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot Framwork Test" id="s1" pass="2" fail="0" skip="0">Robot Framwork Test</stat>
+<stat name="SauceDemo" id="s1-s1" pass="2" fail="0" skip="0">Robot Framwork Test.SauceDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
